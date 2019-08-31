@@ -335,6 +335,10 @@ struct BaseStats
             u8 noFlip : 1;
 };
 
+#define MOVE_PHYSICALITY_PHYSICAL	0
+#define MOVE_PHYSICALITY_SPECIAL	1
+#define MOVE_PHYSICALITY_OTHER		2
+
 struct BattleMove
 {
     u8 effect;
